@@ -1,0 +1,16 @@
+*{
+    background-color: #b3e9f3;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+
+
+h1{
+   background-color:#6590d1;
+   box-shadow: 3px 3px #48789f;
+
+}
+img{
+    height: 300px;
+    width: 500px;
+}

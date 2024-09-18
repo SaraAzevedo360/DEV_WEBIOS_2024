@@ -1,0 +1,35 @@
+*{
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#p1{
+    color: purple;
+}
+
+/* Toda vez que eu precisar acessar um id no css devo utilizar o # antes e ele é uma tag unica*/
+#p2{
+    color: aqua;
+}
+.divs{
+    background-color: bisque;
+}
+
+/*Toda vez que eu precisar acessar uma classe no css devo utilizar o . ponto final antes do no identificador*/
+
+#h1{
+    background-color: red;
+}
+
+#h2{
+    background-color: purple;
+}
+
+section h3{
+    color: darkslategrey;
+}
+
+#p6, a, h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: magenta;
+}
