@@ -1,0 +1,39 @@
+/*body{
+    background-image: url("./round-6_1.jpg");
+    background-size: 100%;
+    background-position: 100%;
+    background-attachment: fixed;
+}*/
+#p1{
+    /*border-width: 12px;
+    border-color: plum;
+    border-style: solid;*/
+    border: 4px plum groove;
+}
+
+#p2{
+    text-shadow: 10px 10px 2px black;
+    border: 5px crimson double;
+}
+
+#p3{
+    border: 5px palevioletred solid;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+}
+
+#st{
+    box-shadow: 10px 10px 2px blueviolet;
+}
+
+figure{
+    border: 5px solid powderblue;
+    border-radius: 10px;
+}
+
+figcaption{
+    text-align: center;
+}
