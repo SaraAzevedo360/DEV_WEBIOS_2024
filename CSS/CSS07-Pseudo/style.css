@@ -1,0 +1,26 @@
+button{
+    background-color: aquamarine;
+    color: blueviolet;
+    width: 10em;
+    border-radius: 5px;
+    border-color: blueviolet;
+}
+
+button:hover{
+    background-color: aqua;
+    color: coral;
+    border-color: cadetblue;
+}
+
+p:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+input:focus{
+    background-color: crimson;
+}
+
+li:nth-child(2){
+    border: 1px solid olive;
+}
