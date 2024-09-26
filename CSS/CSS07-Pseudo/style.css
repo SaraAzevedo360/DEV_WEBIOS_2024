@@ -24,3 +24,30 @@ input:focus{
 li:nth-child(2){
     border: 1px solid olive;
 }
+
+#P2::after{
+    content: "-aqui nos add o after";
+    border: 1px dotted blue;
+}
+
+#P2::before{
+    content: "Aqui add o before";
+    border: 2px solid red;
+}
+
+.P3::first-letter{
+    font-size: 4em;
+    color: plum;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.P3::first-line{
+    background-color: cadetblue;
+    color: crimson;
+}
+
+::selection{
+    background-color: darkmagenta;
+    color: blue;
+}
