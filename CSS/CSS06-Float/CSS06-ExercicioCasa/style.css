@@ -3,4 +3,20 @@ body{
     padding: auto;
     width: 80%;
     border: 1px solid black;
+    background-color:darksalmon;
+}
+figure{
+    border: 1px solid black;
+    padding: 20px;
+    max-width: 250px;
+    border-radius: 2px;
+}
+figcaption{
+    text-align: center;
+}
+#Velozes{
+    float: left;
+}
+#Velozes2{
+    float: right;
 }
