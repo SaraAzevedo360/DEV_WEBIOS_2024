@@ -8,8 +8,18 @@ body{
 figure{
     border: 1px solid black;
     padding: 20px;
-    max-width: 250px;
+    width: 45%;
     border-radius: 2px;
+}
+img{
+    width: 100%;
+    height: 90%;
+}
+.img2003{
+    float: left;
+}
+.img2006{
+    float: right;
 }
 figcaption{
     text-align: center;
