@@ -1,0 +1,48 @@
+body{
+    padding: 2rem;
+    background-color:#8C867C;
+    color: white;
+}
+button{
+    background-color: #533618;
+    color: white;
+    width: 10em;
+    border-radius: 5px;
+    border-color: #c1c2bc;
+}
+button:hover{
+    background-color: green;
+    color: #533618;
+    border-color: cadetblue;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+p:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+.p1::first-letter{
+    width: 70%;
+    background-color: #c1c2bc;
+    color: white;
+}
+footer p::before {
+    content: "©";
+    margin-right: 5px;
+  }
+  
+  footer p::before {
+    content: "Todos os direitos reservados";
+  }
+  
+  footer p::after {
+    content: " © Sara Azevedo";
+  }
+  
+  ::selection {
+    background-color: #314a20;
+    color: white;
+  }
