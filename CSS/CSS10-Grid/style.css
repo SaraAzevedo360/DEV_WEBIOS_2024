@@ -1,9 +1,29 @@
 .container{
     display: grid;
+   /* height: 100vh;
     grid-template-columns: repeat(4, 50px);
     grid-template-rows: 30px 30px 30px 30px;
+    column-gap: 10px; /* para separar a coluna*/
+ /* row-gap: 15px; /* para separa a linha obs: pode colocar do "gap" e os dois valores que vai aplicar o column e o row*/
+/*  justify-items: center;
+    align-items: start;
+    justify-content: center;
+    align-content: center;*/
+    grid-template-areas: "pera pera pera pera" "pipoca pipoca . lukas" "manasses manasses manasses manasses";
 }
 .item{
     border: 1px solid black;
     background-color: aqua;
+}
+.item-1{
+    grid-area: pipoca;
+}
+.item-2{
+    grid-area: pera;
+}
+.item-3{
+    grid-area: lukas;
+}
+.item-4{
+    grid-area: manasses;
 }
