@@ -41,5 +41,5 @@ let aluno  = [
 
 console.log(aluno)
 console.log(aluno[1])
-//console.log(aluno.notas[5])
+//console.log(aluno.notas[2])
 console.log(JSON.stringify(aluno))
