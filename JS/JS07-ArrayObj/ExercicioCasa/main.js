@@ -41,5 +41,9 @@ let aluno  = [
 
 console.log(aluno)
 console.log(aluno[1])
+<<<<<<< HEAD
 //console.log(aluno.notas[2])
+=======
+console.log(aluno[5].nota)
+>>>>>>> 05c283002522fa49a2d359ab2a5f078191555db4
 console.log(JSON.stringify(aluno))
